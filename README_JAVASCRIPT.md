@@ -77,6 +77,67 @@
 ## String ##
 - Atribuição
   - Ex... 
-    var str = "Um valor qualquer
+    var str = "Um valor qualquer"
+
+- Imprimir um String
+  - Ex ... 
+  console.log("Isso é uma string" + str)
+
+## Estruturas Condicionais ##
+- Checa uma condição para uma tomada de decisão no código
+  - Ou ela é verdadeira ou falsa
+- Condicão IF
+  if(<Condição>) {
+
+  }
+- Condição IF ELSE
+  if(<Condição>) {
+
+  } else {
+
+  }
+- Condição IF ELSE if
+  if(<Condição>) {
+
+  } else {
+    if{
+
+    }
+  }
+- Condição IF com 2 verificações
+  if(<Condição1 \\ condição2>) {
+
+  } else {
+
+  }
+
+- Operador Ternário
+  - Verifição em apenas uma linha
+  - Ex...
+    idade >= 18 ? console.log("Pode") : console.log("Não Pode")
+    var pode = idade >= 18 ? true : false
+
+- Condicional Switch
+  switch(<condicao>) {
+    case <valor> :
+      <ação>
+      break;
+    case <valor> :
+      <ação>
+      break;
+    case <valor> :
+      <ação>
+      break;
+    case <valor> :
+      <ação>
+      break;
+    default:
+      <Nenhuma das opções acima>
+  }
+
+
+
+
+
 
 
