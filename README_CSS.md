@@ -10,6 +10,15 @@ Para Identificar no HTML
 ID = <<tag> id=<"nome_do_id">>
 CLASS = <<tag> class=<"nome_da_class">>
 
+## Variaveis no CSS ##
+- Ex...
+    :root {
+        --color-green: greenç
+    }
+- Para chamar a variavel
+    var(--color-green)
+
+
 ## Color ##
 Nome da Cor
 color: red
@@ -281,7 +290,23 @@ margin-left: auto -> mantem o elemento para esquerda
 - Tudo que tiver dentro do Screen vai ter prioridade se a resolução for conforme indicado
 - Caso não tenha dentro do media vai obedecer o que tiver fora
 
-## ##
+## CSS Grid ##
+- Alterar o posicionamento do elemento entre os eixos X e Y
+- Ex...
+    display: grid;
+    grid-tamplate-columns: 1fr 1fr; -> Criando 2 colunas
+- GAP
+    - Espaço entre os elementos do grid
+    - Ex ...
+        gap: 20px
+
+## Dicas CSS ##
+- Zerar magin, botton, border
+    *{
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
 
 
 
