@@ -144,6 +144,11 @@ Com serifa
 Sem serifa
 Monoespace
 
+- Tamanho da fonte
+    px -> Tamanho fixo
+    % -> tamanho relativo
+    em -> tamamho tamanho relativo ao pai
+
 - Propriedades
 font-family: <fonte>, <outras_fontes_caso_não_exista> -> ex. sans-serfi, arial, "time new Roman"
 font-style: <stilo_da_fonte> -> ex. italic
@@ -183,6 +188,7 @@ border-radius: <tamanho>
      backgound: <cor>
      color: <cor>
  } 
+
 
  ## Listas ##
 list-style-type: none -> Deixa sem a marcação na lateral ou colocar outra posição
@@ -307,6 +313,11 @@ margin-left: auto -> mantem o elemento para esquerda
         border: 0;
         padding: 0;
     }
+
+## box-sizing ##
+- Para respeitar o limete do elemento
+- Ex...
+    - box-sizing: border-box;
 
 
 

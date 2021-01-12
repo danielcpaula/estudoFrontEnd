@@ -41,8 +41,12 @@ Ex...
 
 ## Imagens ##
 - Para trabalhar com imagens usamos a tag <img> e usar a tag <alt> para colocar o nome da imagem
-<img src="<Link>" alt="<nome da imagem"> -> com link externo
-<img src="pasta/nomedoarquivo" alt="nomedeimagem"> -> arquivo no computador
+  <img src="<Link>" alt="<nome da imagem"> -> com link externo
+  <img src="pasta/nomedoarquivo" alt="nomedeimagem"> -> arquivo no computador
+
+- Definir altura e largura de uma imagem no HTML
+  <img src="<Link>" alt="<nome da imagem" width="" height="">
+
 
 ## Quebra de Linha ##
 - Para quebrar a linha usamos o <br>
@@ -55,11 +59,22 @@ Ex...
   <li></li>
 </ul>
 
+- Exemplos de tipos de lista Não ordemnadas
+  - circle, square, disc
+  - Ex...
+    - <ul type="circle">
+
 - Lista ordenadas
 Ex...
 <ol>
   <li></li>
 </ol>
+
+ Exemplos de tipos de lista ordenadas
+  - 1, A, a, I, i
+  - Ex...
+    - <ul type="circle">
+
 
 ## Tabela ##
 Ex...
@@ -71,6 +86,16 @@ Ex...
     <td></td> -> informações da tabela   
   </tr>
 </Table>
+
+- Outras configurações para a tabela
+  - border -> borda
+  - width -> Altura
+  - img -> imagem
+  - a -> Link
+
+- <td> ocupar mais de uma posição
+  - <td colspan="2"> -> vai ocupar 2 posições linha
+  - <td rowspan="2"> -> vai ocupar 2 posições coluna
 
 ## Comentario ##
 Ex...
