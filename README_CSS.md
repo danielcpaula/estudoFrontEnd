@@ -173,6 +173,11 @@ background: <cor> -> cor de fundo
 padding: <tamanho>
 border-radius: <tamanho>
 
+- Exemplo de link ainda não visitado
+a:link {
+    color: <cor>
+}
+
 - Exemplo para mudar de cor depois de apertado!
 .links:visited {
     color: <cor>
