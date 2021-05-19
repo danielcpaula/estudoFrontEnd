@@ -116,6 +116,24 @@
 
     
 ## Variáveis ##
+- Conhecendo as variáveis
+  - Nomes simbólicos para receber algum valor
+  - Atalhos de código
+  - Identificadores
+  - 3 palavra reservadas para criar uma variável
+    - var
+    - let
+    - const
+  
+- Tipos dinâmicos
+  - O JS é uma linguagem fracamente tipada e dinâmica
+  - Variáveis não precisam ter um tipo previamente definido
+  - Podemos mudar o conteúdo da variável
+
+- Scope e var, let Const
+  - Scope
+    - Escopo determina a visibilidade de alguma variável no JS
+
 
 ## Praticando e Avançado ##
 
