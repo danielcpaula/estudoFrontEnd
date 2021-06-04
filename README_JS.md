@@ -212,11 +212,83 @@
     - nomeDaFuncao()
 
 - Argumentos e Parâmetros
-  
-  
+  - function expression/function anonymous
+    - Ex...
+      const sum = function(){
 
+      }
+      sum()
+  
+  - Parametros da função (parameters)
+    - Ex...
+      const sum = function(number1, number21){
+        console.log(number1 + number2)
+      }
+      sum(2,3) --> arguments - argumentos
+
+- Retornando valores dentro da função
+  - Ex...
+      const sum = function(number1, number21){
+        let total = (number1 + number2)
+        return total
+      }
+      sum(2,3) --> arguments - argumentos
+      console.log(sum(number1, number2))
+  
+- Function scope  
+  Ex...
+    let subject = 'create video'
+    function createThink(subject){
+      subject = 'study'
+      return subject
+    }
+    console.log(createThink(subject))
+    console.log(subject)
+
+- Function Hoisting
+  - Ex...
+    saymyname()
+
+    function sayMyName() {
+      console.log('mayk')
+    }
+
+- Arrow function
+  - Ex...
+    const sayMyName = (name) => {
+      console.log(name)
+    }
+    sayMyName('name')
+
+- Callback function
+  - Função que passa outra função
+  - Ex...
+    function sayMyName(name) {
+      console.log(name)
+    }
+    sayMyName(
+      () => {
+        console.log('Estou em uma callback')
+      }
+    )
+
+- Funções construtoras
+  - Expressão new
+  - Criar um novo objeto
+  - this keyword
+  - Ex...
+    function Person() {
+      this.name = name
+    }
+
+    const mayk = new Person("Mayk")
+    const mayk = new Person("Joao")
+    console.log(mayk)
+    console.log(joao)
 
 ## Manipulando dados ##
+-Prototype
+  
 
 ## Expressões e Operadores ##
 
