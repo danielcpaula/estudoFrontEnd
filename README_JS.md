@@ -133,11 +133,88 @@
 - Scope e var, let Const
   - Scope
     - Escopo determina a visibilidade de alguma variável no JS
+  - Var
+    - Permite leitura de diferentes scopos
+  - Let e Const
+    - Permite leitura da variável apenas dentro do escopo que ela se encontra
+
+- Nomeando variáveis
+  - Js é case-sensitive
+  - JS aceita a cadeia de caracteres Unicode
+  - Posso:
+    - Iniciar com esses caracteres especiais: $
+    - Iniciar com letras
+    - colocar acentos
+    - Letras maísculas e minúsculas fazem diferença
+  - Não posso
+    - Iniciar com números
+    - Colocar espaçõs vazios
+  - Ideal
+    - Criar nomes que fazem sentido
+    - Que explique o que a variável é ou faz
+    - camelCase
+    - snake_case
+    - Escrever em inglês
 
 
 ## Praticando e Avançado ##
+- Declaration assingnment var
+  - Ex...
+    - var name --> Declara
+    - name = "mike" --> atribui
+    - console.log(typeof name) --> verifica o nome
+
+- Agrupando declarações
+  - Ex...
+    - let age, isHuman --> Declaração de variável agrupada
+    - age = 18
+    - isHuman = true
+    - console.log(name, age, isHuman)
+
+-Concatenando e interpolando variáveis
+  - Ex...
+    console.log('O ' + ' tem ' + age + ' anos.')
+  - Ex...
+    - Interpolando valores com template literals or template strings
+      - console.log(`O ${name} tem ${age} anos.`)
+
+- Objects
+  - Ex...
+    - const person = { 
+      name: 'John',
+      age: 30,
+      weight: 88.6,
+      isAdmin: true
+    }
+    - console.log(person) --> imprime o objeto
+    -console.log(person.age) --> imprime um atributo do objeto
+
+- Arrays
+  - Ex...
+    - const animals = [
+      'Lion',
+      'Monkey',
+      'Cat'
+    ]
+    - console.log(animals[0]) --> Para imprimir a posição do array
+
 
 ## Funções ##
+- Functions
+  - Agrupar código
+  - Ajuda e explicar melhor o código
+  - Ajuda a repetir código
+  - Ex de criação da função
+    - function nomeDaFuncao() {
+
+    }
+  -Ex para executar/chamar a função
+    - nomeDaFuncao()
+
+- Argumentos e Parâmetros
+  
+  
+
 
 ## Manipulando dados ##
 
