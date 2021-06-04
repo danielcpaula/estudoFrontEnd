@@ -287,8 +287,32 @@
     console.log(joao)
 
 ## Manipulando dados ##
--Prototype
-  
+- Prototype
+  - prototype-based language
+  - prototype chain
+  - __proto__
+  - Ex...
+    23.0.__proto__
+    "daniel".__proto__
+
+- Type conversion coersion
+  - Type conversion (typecasting) vs Type coersion
+  - Alteração de um tipo de dado para outro tipo
+  - Ex...
+    console.log('9' + 5) --> Resultado 95
+    console.log(Number('9') + 5) --> Resultado 14
+
+- Strings em números
+  - Manipulando Strings e Números
+  - Transformar String em Número e Número em String
+  - Ex...
+    let string = '123'
+    console.log(Number(string))
+    let number = 321
+    console.log(String(number))
+
+
+
 
 ## Expressões e Operadores ##
 
