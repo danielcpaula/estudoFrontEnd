@@ -53,16 +53,6 @@
     - '' --> aspas simples
     - ´´ --> template literals ou template string
 
-<<<<<<< HEAD
-    
-## Variáveis ##
-
-## Praticando e Avançado ##
-
-## Funções ##
-
-## Manipulando dados ##
-=======
 - Number
   - Numeros
     - 33 --> inteiro
@@ -321,9 +311,80 @@
     let number = 321
     console.log(String(number))
 
+- Contando caracteres e digitos
+  - Contar quantos caracteres tem uma palavra e quantos digitos tem um numero
+  - Ex...
+    let word = "Paralelepipedo"
+    console.log(word.lenght)
+    let number = 1234
+    console.log(String(number).length)
 
+- Casas decimais
+  - Transformar um número quebrado com 2 casas decimais e trocar por ponto por vírgula
+  - Ex...
+    let number = 354.33452345
+    console.log(number.toFixed(2).replace(".",","))
 
->>>>>>> bdb5ae35ceca878a6ff7339ae67b3b01935961dd
+- Maiúsculas e minúsculas
+  - Transformar letras minúsculas em maiúscula. faça o contrário também
+  - Ex...
+    let word = "Programas é muito bacana"
+    console.log(word.toUpperCase()) --> Tudo Maiuscula
+    console.log(word.toLowerCase()) --> Tudo minuscula
+
+- Separando strings
+  - Separe um texto que contem espaços, em um novo array onde cada texto é uma posição do array
+    Depois disso, transforme o array em um texto e onde eram espaços, coloque _
+  Ex...
+    let phrase = "Eu quero viver o Amor!"
+    let myArray = phrase.split(" ")
+    let phraseWithUnderscore = myArray.join("_")
+    console.log(phraseWithUnderscore)
+
+- Encontrando palavras em frases
+  - Verificar se o texto contém a palavra amor
+  - Ex...
+    let phrase = "Eu quero viver o amor"
+    console.log(phrase.includes("amor"))
+
+- Criando array com construtor
+  - Criar um array com contrutor
+  - Ex...
+    let myArray = new Array('a', 'b', 'c')
+    console.log(myArray)
+
+- Elementos do Array
+  - Contar elementos de um array
+  - console.log([
+    "a",
+    {type: "array"},
+    function(){return "alo"}
+  ]).length
+
+- Strings para arrays
+  - Transformar uma cadeia de caracteres em elementos de um array
+  - Ex...
+    let word = "manipulação"
+    console.log(Array.from(word))
+
+- Manipulando arrays
+  - Manipulando arrays
+    let techs = ["html","css","js"]
+  - Adcionar um item no fim
+    techs.push("nodejs"))
+  - Adicionar no começo
+    techs.unshift(sql)
+  - Remover do fim
+    techs.pop()
+  - remover do começo
+    techs.shift
+  - pegar somente alguns elementos do array
+    console.log(techs.slice(1, 3))
+  - Remover 1 ou mais items em qualquer posição do array
+    techs.splice(1, 2) --> primeiro elemento o index, segundo elemento quantidade
+  - Econtrar a posição de um elemento no array
+    let index = techs.indexOf('css') --> Descobrir em qual posição esta o elemento
+    techs.splice(index, 1)
 
 ## Expressões e Operadores ##
 
