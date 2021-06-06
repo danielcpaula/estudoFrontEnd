@@ -389,3 +389,7 @@
 ## Expressões e Operadores ##
 
 ## Condicionais e controle de fluxo ##
+
+## Estruturas de repetição ##
+
+## Consolidando com exercícios ##
