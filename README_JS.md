@@ -419,17 +419,161 @@
     delete person.age
 
 - Operadores aritméticos
-  - Multiplicação
-  - Divisão
-  - Soma
-  - subtração
-  - resto da divisão
-  - incremento
-  - decremento
-  - exponencial
+  - Multiplicação --> *
+    console.log(3 * 5)
+  - Divisão --> /
+    console.log(12 / 2)
+  - Soma --> +
+    console.log(3 + 5)
+  - subtração --> -
+    console.log(3 - 5)
+  - resto da divisão --> %
+    remainder = 11 % 3
+  - incremento --> ++
+    let increment = 0
+    increment++
+  - decremento --> --
+    let decrement = 0
+    decrement--
+  - exponencial --> **
+    console.log(3 ** 3)
 
+- Grouping operator
+  - Grouping operator --> ( )
+    let tatal = (2 + 3) *4
+    console.log(total)
 
+- Operadores de comparação igual a e diferente de
+  - Irá comparar valores e retornar um Boolean com resposta à comparação
+  - == --> igual a
+  - != --> diferente de
+    let one = 1
+    let two = 2
+    console.log( two == 1)
+    console.log( one == "1")
+    
+    console.log( one != two)
+    console.log( one != 1)
+    console.log( one != "1")
 
+- Operadores de comparação estritamente igual e estritamente diferente
+  - === --> estritamente igual a
+  - !== --> estimamente diferente
+  - Ex...
+    let one = 1
+    let two = 2
+    console.log( one === "1")
+    console.log( one === 1)
+    
+    console.log( two !== "2")
+    console.log( two !== 2)
+
+- Operadores de comparação maior e menor (igual)
+  - > maior que
+    console.log(one > two)
+  - >= maior ou igual que
+    console.log(one >= 1)
+    console.log(two >= 1)
+  - < menor que
+    console.log(one < two)
+  - <= menor ou igual que
+    console.log(one <= two)
+    console.log(one <= 1)
+    console.log(one >= 1)
+    console.log(one <= 0) 
+
+- Operadores de atribuição   
+  - Assignment
+    x = 1
+  - addtion Assignment
+    x += 2
+  - subtraction Assignment
+    x -= 2
+  - multiplication Assignment
+    x *= 2
+  - division Assignment
+    x /= 2
+  - remainder, exponetiation
+    x %= 2
+    x **= 2
+
+- Operadores lógicos
+  - 2 valores booleanos, quando verificados
+  - resultará em verdadeiro ou falso
+  - AND --> &&
+  - OR --> ||
+  - NOT !
+    Ex...
+      let pao = true
+      let queijo = false
+      console.log(pao && queijo)
+      console.log(pao || queijo)
+      console.log(!pao)
+
+- Operador condicional ternário
+  - Dependendo da condição, nós receberemos valores diferentes
+  - condição então valor 1 se não valor 2
+  - condition ? value1 : value2
+  - Ex...
+    - Café da manhã
+      let pao = true
+      let queijo = false
+      const niceBreakFast = pao && queijo ? 'café top' : 'café ruim'
+      console.log(niceBreakFast)
+    - Maior de 18
+      let age = 16
+      cont canDrive = age >= 18 ? 'can drive' : "cant't drive"
+      console.log(canDrive)
+
+- Operadores para string
+  - String Operator
+  - comparison(comparação)
+    console.log('a' == 'b')
+  - Concatenation(concatenação)
+  - Retorna a união de duas Strings
+    console.log('a'+'a')
+
+- Falsy e truthy
+  - type conversion(typecasting) vs Type coersion
+  - Falsy
+    - Quando um valor é considerado false em contextos onde um booleano 
+      é obrigatório (condicionais e loops) 
+      - false
+      - 0
+      - -0
+      - ""
+      - null
+      - undefined
+      - NaN
+      - Ex...
+        console.log(0 ? 'verdadeiro' : 'falso')
+  - Truthy
+    - Quando o valor é considerado true em contextos onde um booleano 
+      é obrigatório (condicionais e loops)
+      - true
+      - {}
+      - []
+      - 1
+      - 3.23
+      - "0"
+      - "false"
+      - -1
+      - Infinity
+      - -infinity
+      - Ex...
+        console.log({} ? 'verdadeiro' : 'falso')
+
+- Precedência dos operadores
+  - Grouping --> ()
+  - negação e incremento --> ! ++ --
+  - Multiplicação e divisão --> * /
+  - Adição e subtração --> + -
+  - relacional --> < <= > >=
+  - igualdade --> = != === !==
+  - AND --> &&
+  - OR --> ||
+  - condicional --> ?:
+  - assignment(Atribuição) --> = += -= *=
 
 ## Condicionais e controle de fluxo ##
 
