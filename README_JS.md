@@ -387,6 +387,49 @@
     techs.splice(index, 1)
 
 ## Expressões e Operadores ##
+- Expressão e operadores
+  - Operators
+    - Binary
+    - Unary
+    - Ternary
+  Ex...
+    Let number = 1
+    console.log(number + 1) --> Operador Binario
+    console.log(number++) --> Operador Unary
+    console.log(true ? 'alo' : 'nada') --> Operador Ternary
+
+- New
+  - left-hand-side expression
+  - Criar um objeto
+  - Ex...
+    let name = new String('Mayk')
+    let age = new Number(23)
+    let date = new Date('2020-12-01')
+
+- Typeof delete
+  - Operadores unários
+  - typeof
+  - delete
+  - Ex...
+    console.log(typeof "mayk")
+    const person = {
+      name: "Mayk",
+      age: 25,
+    }
+    delete person.age
+
+- Operadores aritméticos
+  - Multiplicação
+  - Divisão
+  - Soma
+  - subtração
+  - resto da divisão
+  - incremento
+  - decremento
+  - exponencial
+
+
+
 
 ## Condicionais e controle de fluxo ##
 
